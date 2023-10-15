@@ -1,0 +1,3 @@
+You need the basic installation of gym and keras.
+'pip install gym' should be enough: gym: https://gym.openai.com/docs/
+'pip install tensorflow2' for keras (but install also other libraries)
