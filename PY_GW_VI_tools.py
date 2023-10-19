@@ -186,12 +186,12 @@ def solve_grid_world(
             do_we_reach_tolerance = True
             info_about_the_consecutive_V_distance = 'Distance between V_{}(S) and V_{}(S) is: {}'.format(i, i+1, distance_btw_consecutive_V) 
             result_info = [do_we_reach_tolerance, info_about_the_consecutive_V_distance]
-            return World, NewValues, Policy, result_info
+            return World, NewValues, Policy, result_info, i+1
 
     info_about_the_consecutive_V_distance = 'Distance between V_{}(S) and V_{}(S) is: {}'.format(max_n_of_iterations, max_n_of_iterations+1, distance_btw_consecutive_V) 
     result_info = [do_we_reach_tolerance, info_about_the_consecutive_V_distance]
     
-    return World, NewValues, Policy, result_info
+    return World, NewValues, Policy, result_info, max_n_of_iterations+1
 
 
 
@@ -200,6 +200,10 @@ def get_info_about_result(result_info):
         return "Yes, we converge w.r.t. our tolerance\n"+result_info[1]
     else:
         return "No, we stop before reaching the tolerance threshold\n"+result_info[1]
+    
+def ciao():
+    print("ciao")
 
+ciao()
 
 
