@@ -200,10 +200,6 @@ def get_info_about_result(result_info):
         return "Yes, we converge w.r.t. our tolerance\n"+result_info[1]
     else:
         return "No, we stop before reaching the tolerance threshold\n"+result_info[1]
-    
-def ciao():
-    print("ciao")
 
-ciao()
 
 
