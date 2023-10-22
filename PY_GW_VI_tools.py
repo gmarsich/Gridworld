@@ -158,7 +158,7 @@ def update_values(  Values, World, gamma, possible_actions = Actions, p = 1, ran
    
     
     # REMEMBER THAT the Value for Terminal states is ALWAYS ZERO!
-    # In the case you reach a goal, you stay still foreever
+    # In the case you reach a goal, you stay still forever
     for gx, gy in zip(goal[0],goal[1]):
         NewValues[gx, gy] = 0
         NewPolicy[gx, gy] = [0,0]
