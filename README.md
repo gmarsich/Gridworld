@@ -1,4 +1,6 @@
-# RL-project
+# Gridworld: value iteration VS linear programming
+![Uploading image.png…]()
+
 ## S. Lippolis, G. Marsich
 Repository containing the material of the final project of the course "Reinforcement Learning".
 Main files:
