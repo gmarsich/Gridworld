@@ -1,6 +1,6 @@
 # Gridworld: value iteration VS linear programming
 
-## S. Lippolis, G. Marsich
+## Team: [Lippolis Samuele](https://github.com/SamueleLippolis) | [Marsich Gaia](https://github.com/gmarsich)
 Repository containing the material of the final project of the course "Reinforcement Learning".
 Main files:
 - `Part 1 - Value Iteration/Part 1 - Value Iteration.ipynb`: notebook containing the discussion and the results about the value iteration (VI) method
